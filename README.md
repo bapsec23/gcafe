@@ -1,4 +1,3 @@
-# gcafe
 Starting Nmap 7.99 ( https://nmap.org ) at 2026-06-03 12:33 +0700
 Nmap scan report for 192.168.1.1
 Host is up (0.0030s latency).
