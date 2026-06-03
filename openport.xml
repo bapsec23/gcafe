@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun args="nmap -T4 -F 192.168.1.0/24" profile_name="Quick scan" scanner="nmap" start="1780464815" startstr="Wed Jun  3 12:33:35 2026" version="7.99" xmloutputversion="1.04"><scaninfo type="syn" protocol="tcp" numservices="100" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"></scaninfo><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.99 ( https://nmap.org ) at 2026-06-03 12:33 +0700
+Nmap scan report for 192.168.1.1
+Host is up (0.0030s latency).
+Not shown: 95 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+23/tcp  open  telnet
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 14:49:BC:2C:41:88 (DrayTek)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.019s latency).
+Not shown: 96 filtered tcp ports (no-response), 1 filtered tcp ports (port-unreach)
+PORT    STATE SERVICE
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 24:0B:2A:D3:98:88 (Viettel Group)
+
+Nmap scan report for 192.168.1.13
+Host is up (0.0060s latency).
+Not shown: 98 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+554/tcp open  rtsp
+MAC Address: 1C:4D:89:43:6F:EC (Hangzhou Huacheng Network Technology)
+
+Nmap scan report for 192.168.1.14
+Host is up (0.0059s latency).
+Not shown: 98 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+554/tcp open  rtsp
+MAC Address: A8:31:62:57:E2:C2 (Hangzhou Huacheng Network Technology)
+
+Nmap scan report for 192.168.1.15
+Host is up (0.0051s latency).
+Not shown: 98 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+554/tcp open  rtsp
+MAC Address: 1C:4D:89:43:70:82 (Hangzhou Huacheng Network Technology)
+
+Nmap scan report for 192.168.1.16
+Host is up (0.0051s latency).
+Not shown: 98 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+MAC Address: E8:6E:44:FE:A5:76 (zte)
+
+Nmap scan report for 192.168.1.28
+Host is up (0.0059s latency).
+All 100 scanned ports on 192.168.1.28 are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+MAC Address: CE:EE:93:D4:1A:B4 (Unknown)
+
+Nmap scan report for 192.168.1.31
+Host is up (0.29s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT  STATE  SERVICE
+7/tcp closed echo
+9/tcp closed discard
+MAC Address: CA:41:CD:1B:6B:D4 (Unknown)
+
+Nmap scan report for 192.168.1.37
+Host is up (0.0062s latency).
+All 100 scanned ports on 192.168.1.37 are in ignored states.
+Not shown: 100 closed tcp ports (reset)
+MAC Address: C2:0F:46:A7:65:D2 (Unknown)
+
+Nmap scan report for 192.168.1.52
+Host is up (0.0055s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+MAC Address: 4A:D2:36:80:0D:47 (Unknown)
+
+Nmap scan report for 192.168.1.70
+Host is up (0.0054s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+MAC Address: 3E:2B:E0:42:A1:6D (Unknown)
+
+Nmap scan report for 192.168.1.99
+Host is up (0.0010s latency).
+All 100 scanned ports on 192.168.1.99 are in ignored states.
+Not shown: 100 filtered tcp ports (no-response)
+MAC Address: 0C:9D:92:78:13:E3 (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.108
+Host is up (0.0052s latency).
+Not shown: 97 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+554/tcp open  rtsp
+MAC Address: F8:CE:07:EF:42:74 (Zhejiang Dahua Technologyco.)
+
+Nmap scan report for 192.168.1.140
+Host is up (0.0049s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+MAC Address: 62:15:FD:7C:90:6A (Unknown)
+
+Nmap scan report for 192.168.1.160
+Host is up (0.018s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+MAC Address: EA:12:B1:A8:A9:D4 (Unknown)
+
+Nmap scan report for 192.168.1.177
+Host is up (0.0058s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+MAC Address: 0E:2D:81:A2:85:1B (Unknown)
+
+Nmap scan report for 192.168.1.204
+Host is up (0.0051s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:64:A8:53 (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.205
+Host is up (0.0047s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:64:A8:4A (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.206
+Host is up (0.0040s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:64:A8:5D (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.207
+Host is up (0.0038s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:64:A8:52 (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.208
+Host is up (0.0038s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:63:59:83 (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.209
+Host is up (0.0044s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:4C:5F:44 (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.210
+Host is up (0.0057s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:4C:5F:70 (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.213
+Host is up (0.0056s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:4C:5F:6A (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.214
+Host is up (0.0056s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:4C:5F:90 (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.216
+Host is up (0.0046s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:4C:5F:5F (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.217
+Host is up (0.0040s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:4C:5F:69 (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.220
+Host is up (0.0044s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:4D:E3:13 (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.229
+Host is up (0.0060s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:64:A8:FA (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.231
+Host is up (0.0059s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+MAC Address: BC:FC:E7:63:53:67 (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.251
+Host is up (0.0052s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+MAC Address: 58:11:22:00:28:DA (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.252
+Host is up (0.0047s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+MAC Address: 58:11:22:00:28:D9 (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.253
+Host is up (0.0057s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+MAC Address: 58:11:22:00:28:DB (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.254
+Host is up (0.0052s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+MAC Address: 58:11:22:00:28:DC (ASUSTek Computer)
+
+Nmap scan report for 192.168.1.233
+Host is up (0.00056s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5800/tcp open  vnc-http
+
+Nmap done: 256 IP addresses (35 hosts up) scanned in 13.47 seconds
+</output><host comment=""><status state="up"></status><address addr="192.168.1.1" vendor="" addrtype="ipv4"></address><address addr="14:49:BC:2C:41:88" vendor="DrayTek" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="95" state="filtered"></extraports><port portid="21" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="254"></state><service conf="3" method="table" name="ftp"></service></port><port portid="22" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="254"></state><service conf="3" method="table" name="ssh"></service></port><port portid="23" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="254"></state><service conf="3" method="table" name="telnet"></service></port><port portid="80" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="254"></state><service conf="3" method="table" name="http"></service></port><port portid="443" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="254"></state><service conf="3" method="table" name="https"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.2" vendor="" addrtype="ipv4"></address><address addr="24:0B:2A:D3:98:88" vendor="Viettel Group" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="97" state="filtered"></extraports><port portid="53" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="domain"></service></port><port portid="80" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="http"></service></port><port portid="443" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="https"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.13" vendor="" addrtype="ipv4"></address><address addr="1C:4D:89:43:6F:EC" vendor="Hangzhou Huacheng Network Technology" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="98" state="closed"></extraports><port portid="80" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="http"></service></port><port portid="554" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="rtsp"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.14" vendor="" addrtype="ipv4"></address><address addr="A8:31:62:57:E2:C2" vendor="Hangzhou Huacheng Network Technology" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="98" state="closed"></extraports><port portid="80" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="http"></service></port><port portid="554" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="rtsp"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.15" vendor="" addrtype="ipv4"></address><address addr="1C:4D:89:43:70:82" vendor="Hangzhou Huacheng Network Technology" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="98" state="closed"></extraports><port portid="80" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="http"></service></port><port portid="554" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="rtsp"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.16" vendor="" addrtype="ipv4"></address><address addr="E8:6E:44:FE:A5:76" vendor="zte" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="98" state="closed"></extraports><port portid="80" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="http"></service></port><port portid="443" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="https"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.28" vendor="" addrtype="ipv4"></address><address addr="CE:EE:93:D4:1A:B4" vendor="" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="100" state="closed"></extraports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.31" vendor="" addrtype="ipv4"></address><address addr="CA:41:CD:1B:6B:D4" vendor="" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="98" state="filtered"></extraports><port portid="7" protocol="tcp"><state state="closed" reason="reset" reason_ttl="64"></state><service conf="3" method="table" name="echo"></service></port><port portid="9" protocol="tcp"><state state="closed" reason="reset" reason_ttl="64"></state><service conf="3" method="table" name="discard"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.37" vendor="" addrtype="ipv4"></address><address addr="C2:0F:46:A7:65:D2" vendor="" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="100" state="closed"></extraports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.52" vendor="" addrtype="ipv4"></address><address addr="4A:D2:36:80:0D:47" vendor="" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="99" state="closed"></extraports><port portid="49152" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.70" vendor="" addrtype="ipv4"></address><address addr="3E:2B:E0:42:A1:6D" vendor="" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="99" state="closed"></extraports><port portid="49152" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.99" vendor="" addrtype="ipv4"></address><address addr="0C:9D:92:78:13:E3" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="100" state="filtered"></extraports></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.108" vendor="" addrtype="ipv4"></address><address addr="F8:CE:07:EF:42:74" vendor="Zhejiang Dahua Technologyco." addrtype="mac"></address><hostnames></hostnames><ports><extraports count="97" state="closed"></extraports><port portid="80" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="http"></service></port><port portid="443" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="https"></service></port><port portid="554" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service conf="3" method="table" name="rtsp"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.140" vendor="" addrtype="ipv4"></address><address addr="62:15:FD:7C:90:6A" vendor="" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="99" state="closed"></extraports><port portid="49152" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.160" vendor="" addrtype="ipv4"></address><address addr="EA:12:B1:A8:A9:D4" vendor="" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="99" state="closed"></extraports><port portid="49152" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.177" vendor="" addrtype="ipv4"></address><address addr="0E:2D:81:A2:85:1B" vendor="" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="99" state="closed"></extraports><port portid="49152" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="64"></state><service></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.204" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:64:A8:53" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.205" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:64:A8:4A" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.206" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:64:A8:5D" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.207" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:64:A8:52" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.208" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:63:59:83" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.209" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:4C:5F:44" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.210" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:4C:5F:70" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.213" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:4C:5F:6A" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.214" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:4C:5F:90" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.216" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:4C:5F:5F" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.217" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:4C:5F:69" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.220" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:4D:E3:13" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.229" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:64:A8:FA" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.231" vendor="" addrtype="ipv4"></address><address addr="BC:FC:E7:63:53:67" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.251" vendor="" addrtype="ipv4"></address><address addr="58:11:22:00:28:DA" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="3389" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="ms-wbt-server"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.252" vendor="" addrtype="ipv4"></address><address addr="58:11:22:00:28:D9" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="3389" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="ms-wbt-server"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.253" vendor="" addrtype="ipv4"></address><address addr="58:11:22:00:28:DB" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="3389" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="ms-wbt-server"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.254" vendor="" addrtype="ipv4"></address><address addr="58:11:22:00:28:DC" vendor="ASUSTek Computer" addrtype="mac"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="3389" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="ms-wbt-server"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><host comment=""><status state="up"></status><address addr="192.168.1.233" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="5800" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="vnc-http"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><runstats><finished time="1780464829" timestr="Wed Jun  3 12:33:49 2026"></finished><hosts up="35" down="221" total="256"></hosts></runstats></nmaprun>
